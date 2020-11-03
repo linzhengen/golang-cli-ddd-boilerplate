@@ -16,5 +16,5 @@ func NewHelloWorld() HelloWorld {
 }
 
 func (h *helloWorld) GetName() string {
-	return faker.TitleMale()
+	return faker.Name()
 }
