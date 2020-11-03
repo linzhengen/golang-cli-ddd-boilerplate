@@ -1,12 +1,12 @@
 version: 2.1
 executors:
   default:
-    working_directory: /go/src/github.com/linzhengen/ddd-gin-admin
+    working_directory: /go/src/github.com/linzhengen/golang-cli-ddd-boilerplate
     environment:
       TZ: "/usr/share/zoneinfo/Asia/Tokyo"
       GO111MODULE: "on"
     docker:
-      - image: circleci/golang:1.14
+      - image: circleci/golang:1.15
 
 jobs:
   golint:
