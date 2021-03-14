@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/linzhengen/ddd-gin-admin/interfaces/action"
+	"github.com/linzhengen/golang-cli-ddd-boilerplate/interfaces/action"
 	"github.com/urfave/cli/v2"
 )
 

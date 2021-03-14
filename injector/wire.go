@@ -4,9 +4,9 @@ package injector
 
 import (
 	"github.com/google/wire"
-	"github.com/linzhengen/ddd-gin-admin/application"
-	"github.com/linzhengen/ddd-gin-admin/domain/repository"
-	"github.com/linzhengen/ddd-gin-admin/interfaces/action"
+	"github.com/linzhengen/golang-cli-ddd-boilerplate/application"
+	"github.com/linzhengen/golang-cli-ddd-boilerplate/domain/repository"
+	"github.com/linzhengen/golang-cli-ddd-boilerplate/interfaces/action"
 )
 
 // BuildInjector build injector use wire.

@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"github.com/linzhengen/ddd-gin-admin/domain/entity"
-	"github.com/linzhengen/ddd-gin-admin/infrastructure/persistence/hogestore"
+	"github.com/linzhengen/golang-cli-ddd-boilerplate/domain/entity"
+	"github.com/linzhengen/golang-cli-ddd-boilerplate/infrastructure/persistence/hogestore"
 )
 
 // HelloWorldRepository is a interface.

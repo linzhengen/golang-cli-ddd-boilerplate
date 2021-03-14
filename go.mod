@@ -1,4 +1,4 @@
-module github.com/linzhengen/ddd-gin-admin
+module github.com/linzhengen/golang-cli-ddd-boilerplate
 
 go 1.15
 

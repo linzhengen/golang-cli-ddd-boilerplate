@@ -1,6 +1,6 @@
 package action
 
-import "github.com/linzhengen/ddd-gin-admin/application"
+import "github.com/linzhengen/golang-cli-ddd-boilerplate/application"
 
 // HelloWorldAction is a interface.
 type HelloWorldAction interface {

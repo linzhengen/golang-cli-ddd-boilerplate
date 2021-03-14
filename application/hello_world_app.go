@@ -3,7 +3,7 @@ package application
 import (
 	"log"
 
-	"github.com/linzhengen/ddd-gin-admin/domain/repository"
+	"github.com/linzhengen/golang-cli-ddd-boilerplate/domain/repository"
 )
 
 // HelloWorldApp is a interface.

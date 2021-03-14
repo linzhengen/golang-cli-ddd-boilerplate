@@ -4,9 +4,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/linzhengen/ddd-gin-admin/injector"
+	"github.com/linzhengen/golang-cli-ddd-boilerplate/injector"
 
-	"github.com/linzhengen/ddd-gin-admin/interfaces/command"
+	"github.com/linzhengen/golang-cli-ddd-boilerplate/interfaces/command"
 	"github.com/urfave/cli/v2"
 )
 
