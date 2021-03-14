@@ -69,3 +69,10 @@ misspell:
 tools:
 	go install golang.org/x/lint/golint; \
 	go install github.com/client9/misspell/cmd/misspell;
+
+.PHONY: wire
+wire:
+	@hash wire > /dev/null 2>&1; if [ $$? -ne 0 ]; then \
+		$(GO) get -u github.com/google/wire/cmd/wire; \
+	fi
+	wire gen ./injector/wire.go

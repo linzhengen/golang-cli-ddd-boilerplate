@@ -5,13 +5,6 @@ import (
 	"github.com/urfave/cli/v2"
 )
 
-// Command is a interface.
-type Command interface {
-}
-
-type command struct {
-}
-
 // NewCommand is Command constructor.
 func NewCommand(a action.Action) []*cli.Command {
 	return []*cli.Command{
